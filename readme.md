@@ -43,20 +43,21 @@ If use 'test', it will just print the matching file and changes.
 ---
 
 ## jj.py
+[Link](./sources/jj.py)  
+从 bilibili 搜索新番，再到 bilibilijj 得到 MP3/MP4/ASS 地址。  
 
 #### **Language:**  
 Python.  
 
 #### **Usage:**  
 
-`jj.py [search_name] page_num`
-从 bilibili 搜索新番，再到 bilibilijj 得到 MP3/MP4/ASS 地址。
-用 `search_name` 搜索，共搜索 `page_num` 页，对里面的链接放到 bilibilijj 里解析到 MP3/MP4/ASS 地址。
+`jj.py [search_name] page_num`  
+用 `search_name` 搜索，共搜索 `page_num` 页，对里面的链接放到 bilibilijj 里解析到 MP3/MP4/ASS 地址。  
 生成结果到 `res.md` Mardown 文件。
 
 #### **Example:**
 
-爬前 2 页的「来自风平浪静的明天」。
+爬前 bilibili 新番搜索 2 页的「来自风平浪静的明天」。  
 ```
 jj.py 来自风平浪静的明天 2
 ```
