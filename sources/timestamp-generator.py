@@ -10,8 +10,8 @@ import sys
 from datetime import datetime
 
 usage = 'generate unix-timestamp'
-formt = 'time-generator.py year month start-day end-day [interval = 1]'
-hint  = 'time-generator.py 2015 6 12 18 1'
+formt = 'timestamp-generator.py year month start-day end-day [interval = 1]'
+hint  = 'timestamp-generator.py 2015 6 12 18 1'
 
 def generate(argv):
     y, m, sd, ed, it = map(int, argv)
