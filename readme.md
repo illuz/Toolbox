@@ -8,6 +8,7 @@ There are some small tools here.
 
 - [**rename.py**](#renamepy): Rename files.
 - [**jj.py**](#jjpy): BilibiliJJ tool.
+- [**timestamp-generator](#timestamp-generatorpy): Generate unix-timestamp.
 
 ---
 
@@ -64,5 +65,25 @@ jj.py 来自风平浪静的明天 2
 ```
 
 ---
+
+### timestamp-generator.py
+
+**Language**: Python.  
+
+**Usage**: `timestamp-generator.py year month start-day end-day [interval = 1]`  
+
+**Example**:  
+
+```
+$ ./timestamp-generator.py 2015 6 12 18 1
+(Output)
+2015-06-12 00:00:00 is 1434038400
+2015-06-13 00:00:00 is 1434124800
+2015-06-14 00:00:00 is 1434211200
+2015-06-15 00:00:00 is 1434297600
+2015-06-16 00:00:00 is 1434384000
+2015-06-17 00:00:00 is 1434470400
+```
+
 
 
