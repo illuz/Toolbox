@@ -6,7 +6,8 @@ There are some small tools here.
 
 ## Content
 
-- [**readme**](#rename): Rename files.
+- [**rename.py**](#renamepy): Rename files.
+- [**jj.py**](#jjpy): BilibiliJJ tool.
 
 ---
 
